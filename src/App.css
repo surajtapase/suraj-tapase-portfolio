@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  flex: 1;
+}
+
+section {
+  padding: 2rem;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 4rem;
+  }
+}
