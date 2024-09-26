@@ -34,7 +34,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="p-12 bg-gradient-to-r from-teal-400 to-blue-500 rounded-[14px]">
+    <section id="projects" className="p-6 md:p-12 bg-gradient-to-r from-teal-400 to-blue-500 rounded-[14px]"> {/* Adjusted padding */}
       <h2 className="text-4xl font-bold mb-8 text-center text-gray-800">Projects</h2>
       <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         {projects.map((project, index) => (
