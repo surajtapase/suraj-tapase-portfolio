@@ -20,6 +20,21 @@ const projects = [
     title: 'Digital University System',
     description: 'Built a comprehensive system for universities and colleges to manage placements, lectures, notes, and notices. Teachers, TPOs, and admin can efficiently manage tasks through this system, using React, Python with REST APIs for backend operations.',
     techStack: 'React.js, Python, REST API',
+  },
+  {
+    title: 'Fitness Clock',
+    description: 'Developed a fitness tracking application with customizable workout schedules, progress tracking, and health analytics to help users stay fit and motivated.',
+    techStack: 'React.js, Node.js, MongoDB',
+  },
+  {
+    title: 'Image Manipulation Tool',
+    description: 'Created an interactive web tool for real-time image manipulation, allowing users to apply filters, crop, and resize images directly in the browser.',
+    techStack: 'React.js, JavaScript, HTML5 Canvas',
+  },
+  {
+    title: 'Dynamic Todo Web App',
+    description: 'A robust and flexible to-do application with support for recurring tasks and reminders. Built with Next.js and Node.js to ensure a seamless user experience.',
+    techStack: 'Next.js, Node.js, PostgreSQL, Tailwind CSS',
   }
 ];
 
@@ -34,14 +49,14 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="p-6 md:p-12 bg-gradient-to-r from-teal-400 to-blue-500 rounded-[14px]"> {/* Adjusted padding */}
+    <section id="projects" className="p-6 md:p-12 bg-gradient-to-r from-teal-400 to-blue-500 rounded-[14px]">
       <h2 className="text-4xl font-bold mb-8 text-center text-gray-800">Projects</h2>
-      <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
           <div 
             key={index} 
             className="relative bg-white rounded-lg shadow-md transition-shadow duration-300 flex flex-col justify-between hover:shadow-xl border-l-4 border-blue-500"
-            style={{ minHeight: '350px' }} 
+            style={{ minHeight: '350px' }}
           >
             <div className="p-6">
               <h3 className="text-2xl font-semibold mb-2 text-gray-800">{project.title}</h3>
