@@ -35,6 +35,11 @@ const projects = [
     title: 'Dynamic Todo Web App',
     description: 'A robust and flexible to-do application with support for recurring tasks and reminders. Built with Next.js and Node.js to ensure a seamless user experience.',
     techStack: 'Next.js, Node.js, PostgreSQL, Tailwind CSS',
+  },
+  {
+    title: 'Weather Now App',
+    description: 'A real-time weather application that displays current weather information based on user location. Built with React and Tailwind CSS, utilizing Open Weather API for fetching data.',
+    techStack: 'React, Tailwind CSS, Open Weather API',
   }
 ];
 

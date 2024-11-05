@@ -1,11 +1,12 @@
-import React from 'react';
-import Header from './components/Header';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import './App.css';
-import Skills from './components/Skills';
-import MotivationalQuote from './components/MotivationalQuote';
+import React from "react";
+import Header from "./components/Header";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import "./App.css";
+import Skills from "./components/Skills";
+import MotivationalQuote from "./components/MotivationalQuote";
+import PersonalDevelopment from "./components/PersonalDevelopment";
 
 function App() {
   return (
@@ -15,11 +16,14 @@ function App() {
         <section id="about">
           <About />
         </section>
-        <Skills/>
+        <Skills />
+
+
         <section id="projects">
           <Projects />
         </section>
-        <MotivationalQuote/>
+        <PersonalDevelopment />
+        <MotivationalQuote />
         <section id="contact">
           <Contact />
         </section>
