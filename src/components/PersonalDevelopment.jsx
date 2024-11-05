@@ -5,7 +5,7 @@ import { FaAward, FaCertificate } from 'react-icons/fa';
 const Certification = () => {
   return (
     <div style={{paddingLeft:"3.5rem",paddingRight:"3.5rem",paddingBottom:"3rem"}}>
-  <section id="certifications" className="flex justify-center p-6 md:p-12 bg-gradient-to-r from-indigo-400 to-purple-500 rounded-lg shadow-lg">
+  <section id="certifications" className="flex justify-center p-6 md:p-12 bg-gradient-to-r from-teal-400 to-blue-500 rounded-lg shadow-lg">
       <div className="bg-white rounded-lg shadow-xl p-8 max-w-sm text-center border-t-4 border-blue-600">
         <div className="flex justify-center items-center mb-4 text-blue-600">
           <FaAward className="text-5xl" />
