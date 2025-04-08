@@ -44,7 +44,7 @@ export default function Skills() {
           <span className="flex items-center" style={{ color: '#181717' }}>
             <FaGithub className="mr-2" size={38} /> GitHub
           </span>
-          <span className="flex items-center" style={{ color: '#FF5722' }}>
+          <span className="flex items-center" style={{ color: '#0BB2ED' }}>
             <SiSap className="mr-2" size={38} /> SAP CPI
           </span>
           <span className="flex items-center" style={{ color: '#555' }}>
