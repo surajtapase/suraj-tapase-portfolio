@@ -1,7 +1,7 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
-import { FaReact, FaPython, FaHtml5, FaCss3Alt, FaGithub, FaNodeJs, FaCogs } from 'react-icons/fa';
-import { SiDjango, SiMysql, SiPostgresql, SiJavascript, SiTailwindcss, SiMongodb, SiApache } from 'react-icons/si';
+import { FaReact, FaPython, FaHtml5, FaCss3Alt, FaGithub, FaNodeJs, } from 'react-icons/fa';
+import { SiDjango, SiMysql, SiPostgresql, SiJavascript, SiTailwindcss, SiMongodb, SiSap, SiApachegroovy } from 'react-icons/si';
 
 export default function Skills() {
   return (
@@ -45,10 +45,10 @@ export default function Skills() {
             <FaGithub className="mr-2" size={38} /> GitHub
           </span>
           <span className="flex items-center" style={{ color: '#FF5722' }}>
-            <SiApache className="mr-2" size={38} /> SAP CPI
+            <SiSap className="mr-2" size={38} /> SAP CPI
           </span>
           <span className="flex items-center" style={{ color: '#555' }}>
-            <FaCogs className="mr-2" size={38} /> Groovy
+            <SiApachegroovy className="mr-2" size={38} /> Groovy
           </span>
         </div>
       </Marquee>
