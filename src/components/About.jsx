@@ -14,25 +14,31 @@ const About = () => {
         />
         <div className="flex-grow text-center lg:text-left pl-4">
           <h2 className="text-3xl font-bold mb-4 text-gray-800">About Me</h2>
-          <p className="text-gray-700 leading-relaxed mb-4 text-justify md:text-left">
-            I am a skilled Full Stack Developer with 2+ years of professional
-            experience in building scalable and responsive applications using
-            React.js and Python. Over the years, I have contributed to various
-            impactful projects, including job platforms and official portals,
-            focusing on delivering clean, efficient, and user-centric solutions.
+          <p className="text-gray-700 leading-relaxed mb-4 text-left md:text-justify">
+            I am a results-driven Full Stack Developer with over 2 years of
+            professional experience in designing and developing scalable,
+            user-centric web applications using React.js and Python. My work
+            spans across impactful platforms such as job portals and official
+            government dashboards, where I focused on delivering clean
+            architecture, responsive interfaces, and optimized performance.
           </p>
-          <p className="text-gray-700 leading-relaxed mb-4 text-justify md:text-left">
-            Currently, I am working as an Integration Developer specializing in
-            SAP Cloud Platform Integration (CPI), with hands-on experience in
-            JavaScript and Groovy scripting. I integrate enterprise systems with
-            precision and performance in mind, streamlining workflows and
-            automating business processes.
+          <p className="text-gray-700 leading-relaxed mb-4 text-left md:text-justify">
+            Currently, I serve as an Integration Developer, specializing in SAP
+            Cloud Platform Integration (CPI), where I utilize JavaScript and
+            Groovy scripting to streamline enterprise workflows and automate
+            business processes. I have also worked extensively with Django for
+            backend services and have deployed several applications using
+            Netlify and other modern hosting platforms.
           </p>
-          <p className="text-gray-700 leading-relaxed mb-4 text-justify md:text-left">
-            I am passionate about solving real-world problems through technology
-            and continuously expanding my skill set to stay ahead in the
-            evolving tech landscape. Let’s connect to collaborate on innovative
-            and impactful projects.
+          <p className="text-gray-700 leading-relaxed mb-4 text-left md:text-justify">
+            My technical expertise includes React.js, Python, Django,
+            JavaScript, Groovy, GitHub, Netlify, REST APIs, and CI/CD practices.
+            I have built and deployed multiple full-stack projects, all
+            documented in well-maintained repositories on GitHub. I am
+            passionate about solving real-world problems through technology and
+            continuously upskilling to stay ahead in a fast-evolving tech
+            landscape. Let’s connect and collaborate on innovative, impactful
+            solutions.
           </p>
         </div>
       </div>
