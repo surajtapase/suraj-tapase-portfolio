@@ -15,12 +15,15 @@ const About = () => {
         <div className="flex-grow text-center lg:text-left pl-4">
           <h2 className="text-3xl font-bold mb-4 text-gray-800">About Me</h2>
           <p className="text-gray-700 leading-relaxed mb-4 text-left md:text-justify">
-            I am a results-driven Full Stack Developer with over 2.6+ years of
-            professional experience in designing and developing scalable,
-            user-centric web applications using React.js and Python. My work
-            spans across impactful platforms such as job portals and official
-            government dashboards, where I focused on delivering clean
-            architecture, responsive interfaces, and optimized performance.
+            Results-driven Full Stack Developer with 2.6+ years of
+            experience in designing and building scalable, high-performance
+            web applications using ReactJS, JavaScript, Java, and Python.
+            Proven expertise in developing modular frontend architectures,
+            implementing RESTful backend services, and delivering
+            responsive, user-centric interfaces. Hands-on experience working
+            on enterprise and government platforms, including job portals
+            and official dashboards, with a strong focus on clean code, system
+            performance optimization, and maintainable application design.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4 text-left md:text-justify">
             Currently, I serve as an Integration Developer, specializing in SAP
