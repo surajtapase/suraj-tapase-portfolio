@@ -15,7 +15,7 @@ const About = () => {
         <div className="flex-grow text-center lg:text-left pl-4">
           <h2 className="text-3xl font-bold mb-4 text-gray-800">About Me</h2>
           <p className="text-gray-700 leading-relaxed mb-4 text-left md:text-justify">
-            I am a results-driven Full Stack Developer with over 2.2+ years of
+            I am a results-driven Full Stack Developer with over 2.6+ years of
             professional experience in designing and developing scalable,
             user-centric web applications using React.js and Python. My work
             spans across impactful platforms such as job portals and official
