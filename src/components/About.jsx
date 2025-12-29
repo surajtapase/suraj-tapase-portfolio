@@ -15,33 +15,29 @@ const About = () => {
         <div className="flex-grow text-center lg:text-left pl-4">
           <h2 className="text-3xl font-bold mb-4 text-gray-800">About Me</h2>
           <p className="text-gray-700 leading-relaxed mb-4 text-left md:text-justify">
-            Results-driven Full Stack Developer with 2.6+ years of
-            experience in designing and building scalable, high-performance
-            web applications using ReactJS, JavaScript, Java, and Python.
-            Proven expertise in developing modular frontend architectures,
-            implementing RESTful backend services, and delivering
-            responsive, user-centric interfaces. Hands-on experience working
-            on enterprise and government platforms, including job portals
-            and official dashboards, with a strong focus on clean code, system
-            performance optimization, and maintainable application design.
+            Results-driven Full Stack Developer with 2.6+ years of experience in
+            designing and building scalable, high-performance web applications
+            using ReactJS, JavaScript, Java, and Python. Proven expertise in
+            developing modular frontend architectures, implementing RESTful
+            backend services, and delivering responsive, user-centric
+            interfaces. Hands-on experience working on enterprise and government
+            platforms, including job portals and official dashboards, with a
+            strong focus on clean code, system performance optimization, and
+            maintainable application design.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4 text-left md:text-justify">
-            Currently, I serve as an Integration Developer, specializing in SAP
-            Cloud Platform Integration (CPI), where I utilize JavaScript and
-            Groovy scripting to streamline enterprise workflows and automate
-            business processes. I have also worked extensively with Django for
-            backend services and have deployed several applications using
-            Netlify and other modern hosting platforms.
+            Currently working as an Integration Developer, building and
+            optimizing enterprise-grade integrations using JavaScript and
+            automation to streamline business workflows. Experienced in
+            developing backend services with Python and Django and designing
+            RESTful APIs for scalable applications.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4 text-left md:text-justify">
-            My technical expertise includes React.js, Python, Django,
-            JavaScript, Groovy, GitHub, Netlify, REST APIs, and CI/CD practices.
-            I have built and deployed multiple full-stack projects, all
-            documented in well-maintained repositories on GitHub. I am
-            passionate about solving real-world problems through technology and
-            continuously upskilling to stay ahead in a fast-evolving tech
-            landscape. Let’s connect and collaborate on innovative, impactful
-            solutions.
+            Proficient in ReactJS, JavaScript, Java, Python, Django, REST APIs,
+            and CI/CD practices, with hands-on experience deploying applications
+            on modern cloud platforms. Strong believer in clean code, efficient
+            system design, and continuous learning to solve real-world problems
+            effectively.
           </p>
         </div>
       </div>
